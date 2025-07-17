@@ -45,13 +45,74 @@ main {
   margin: auto;
 }
 
-section {
-  margin-bottom: 2.5rem;
-  background: #ffffff;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  background: linear-gradient(to right, #f5f8fc, #e8edf4);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
+
+.about-photo {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-pic-side {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* 👈 makes it circular */
+  object-fit: cover;
+  border: 5px solid #2a5298;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-content {
+  flex: 2;
+}
+
+.about-content h2 {
+  color: #2a3d66;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.cta-buttons a {
+  padding: 0.7rem 1.4rem;
+  background: #2a5298;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-right: 1rem;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.cta-buttons a:hover {
+  background: #1e3c72;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content {
+    flex: 1;
+  }
+}
+
 
 h2 {
   border-bottom: 2px solid #718093;
@@ -107,3 +168,6 @@ footer {
   background: #dcdde1;
   margin-top: 2rem;
 }
+
+
+
