@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pinapaka Lokesh |  Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pinapaka Lokesh</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a creative web developer with experience in building responsive, user-focused websites using modern web technologies.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>python</li>
+        <li>C,C++</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Online Library Management System</h3>
+        <p>This system streamlines book borrowing and return processes for libraries. It provides a digital interface for students and staff to browse, issue, and manage books online.</p>
+        <ul>
+            <li>Developed using HTML, CSS, JavaScript, and PHP</li>
+            <li>MySQL database used for storing user and book records</li>
+            <li>Roles: Admin and Student</li>
+            <li>Features include book catalog search, issuing/return management, late fine calculation, and user login</li>
+        </ul>
+        </div>
+
+      <div class="project">
+        <h3>Blood Bank Management System</h3>
+        <p>This project is a web-based application designed to manage the day-to-day operations of a blood bank efficiently. It includes features like donor registration, blood inventory management, blood request handling, and user authentication for secure access.</p>
+         <ul>
+            <li>Built with HTML, CSS, JavaScript, and PHP</li>
+            <li>Implements MySQL for real-time database integration</li>
+            <li>Roles: Admin, Hospital, Donor, and Receiver</li>
+            <li>Features include blood availability search, request processing, and donation tracking</li>
+        </ul>
+        </div>
+
+      <div class="project">
+        <h3>BMI Calculator</h3>
+        <p>This is a beginner-friendly web app that allows users to calculate their Body Mass Index (BMI) based on height and weight inputs. It instantly shows whether the user is underweight, normal, overweight, or obese.</p>
+        <ul>
+            <li>Developed using HTML, CSS, and JavaScript</li>
+            <li>Takes user input for height (in cm) and weight (in kg)</li>
+            <li>Calculates BMI and classifies the result using WHO standards</li>
+            <li>Responsive and mobile-friendly design</li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="courses">
+      <h2>Courses</h2>
+      <ul class="courses-list">
+        <li>Full Stack Web Development - Coursera</li>
+        <li>JavaScript Mastery - Udemy</li>
+        <li>Responsive Design - freeCodeCamp</li>
+      </ul>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>Download my resume: <a href="#" target="_blank">View Resume (PDF)</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact me?</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="formResponse"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pinapaka Lokesh</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
